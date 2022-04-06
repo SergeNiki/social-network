@@ -9,28 +9,27 @@ import { useEffect } from "react";
 import Preloader from "./components/common/Preloader/Preloader";
 
 function App(props) {
-
   useEffect(() => {
-    props.initializeApp()
-  }, [])
+    props.initializeApp();
+  }, []);
 
   if (!props.initialized) {
-    return <Preloader/>
-  } 
+    return <Preloader />;
+  }
 
   return (
     <div className="app-wrapper">
-      <BrowserRouter basename={process.env.PUBLIC_URL} >
+      <HashRouter>
         <HeaderContainer />
         <Nav />
         <Content />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
 
 let mapStateToProps = (state) => ({
-  initialized: state.app.initialized
-})
+  initialized: state.app.initialized,
+});
 
 export default connect(mapStateToProps, { initializeApp })(App);
