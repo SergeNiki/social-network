@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/987.dd9197a1.chunk.css","mappings":"AAAA,qBAGE,SAAU,CADV,QAAS,CADT,SAGF","sources":["components/Content/Signup/Singup.module.css"],"sourcesContent":[".error {\r\n  padding: 0;\r\n  margin: 0;\r\n  color: red;\r\n}\r\n"],"names":[],"sourceRoot":""}
