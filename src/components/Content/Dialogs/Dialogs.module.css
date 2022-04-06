@@ -1,0 +1,63 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.dialog_items ul {
+    list-style-type: none;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.messages {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.messages_block {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.send_messages_form {
+    /* display: block; */
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.send_input_block {
+    flex-grow: 5;
+}
+
+.send_input_button {
+    flex-grow: 1;
+}
+
+.send_input_button button {
+    box-sizing: border-box;
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(100, 206, 255);
+}
+
+.send_input_block input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+}

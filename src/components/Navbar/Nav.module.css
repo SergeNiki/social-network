@@ -1,0 +1,30 @@
+.nav {
+    grid-area: nav;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0;
+    /* padding: 8px; */
+}
+
+.nav ul a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.nav .activeLink {
+    cursor: default;
+    background-color: rgb(202, 202, 202);
+}

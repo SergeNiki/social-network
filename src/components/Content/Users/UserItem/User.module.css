@@ -1,0 +1,59 @@
+.user {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    /* padding-bottom: 0; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "pers name loc"
+    "pers stat loc";
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.user:hover {
+    background-color: rgb(234, 247, 255);
+}
+
+.location {
+    grid-area: loc;
+}
+
+.status {
+    grid-area: stat;
+}
+
+.name_pers {
+    grid-area: name;
+}
+
+.pers {
+    grid-area: pers;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.name_pers h3 {
+    margin: 0;
+}
+
+/* .img_wrap {
+    position: relative;
+    overflow:hidden;
+    width: 70px;
+    height: 70px;
+} */
+
+.img_wrap img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    /* position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); */
+    object-fit:cover;
+}

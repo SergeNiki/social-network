@@ -1,0 +1,29 @@
+.post p {
+    margin: 0;
+    /* display: inline-block; */
+}
+
+.post {
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    width: 100%;
+    min-height: 70px;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.post img {
+    width: 50px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.post span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: rgb(255, 52, 52);
+}

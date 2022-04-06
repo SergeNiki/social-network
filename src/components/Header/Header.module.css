@@ -1,0 +1,22 @@
+.header {
+    grid-area: header;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 80px;
+}
+
+.login_block {
+    /* background-color: aqua; */
+    width: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login_block a {
+    text-decoration: none;
+    color: black;
+}

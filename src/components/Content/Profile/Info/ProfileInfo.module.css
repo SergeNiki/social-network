@@ -1,0 +1,19 @@
+.profileInfo {
+    border-bottom: 1px solid rgb(165, 165, 165);
+    display: flex;
+
+}
+
+.personInfo {
+    padding: 20px;
+    width: 100%;
+}
+
+.personInfo h3 {
+    margin: 0;
+}
+
+.profileInfo img {
+    width: 200px;
+    margin-bottom: 20px;
+}
